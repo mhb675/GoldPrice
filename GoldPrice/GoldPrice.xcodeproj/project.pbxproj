@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E289EBB1FBEC5E300B32FB3 /* MetalDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EBA1FBEC5E300B32FB3 /* MetalDetailsCell.swift */; };
+		0E289EBE1FBEFC1000B32FB3 /* Metal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EBD1FBEFC1000B32FB3 /* Metal.swift */; };
+		0E289EC11FBF140F00B32FB3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EC01FBF140F00B32FB3 /* Constants.swift */; };
+		0E289EC41FBF248800B32FB3 /* Gold-USD.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E289EC31FBF248800B32FB3 /* Gold-USD.json */; };
 		0E3F900F1FBDED3C00557860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F900E1FBDED3C00557860 /* AppDelegate.swift */; };
-		0E3F90111FBDED3C00557860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F90101FBDED3C00557860 /* ViewController.swift */; };
+		0E3F90111FBDED3C00557860 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F90101FBDED3C00557860 /* DashboardViewController.swift */; };
 		0E3F90141FBDED3C00557860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F90121FBDED3C00557860 /* Main.storyboard */; };
 		0E3F90161FBDED3C00557860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F90151FBDED3C00557860 /* Assets.xcassets */; };
 		0E3F90191FBDED3C00557860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F90171FBDED3C00557860 /* LaunchScreen.storyboard */; };
 		0E3F90241FBDED3C00557860 /* GoldPriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F90231FBDED3C00557860 /* GoldPriceTests.swift */; };
 		0E3F902F1FBDED3C00557860 /* GoldPriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F902E1FBDED3C00557860 /* GoldPriceUITests.swift */; };
+		0ED178B71FC04DB200D9AA89 /* Silver-USD.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ED178B41FC04DB200D9AA89 /* Silver-USD.json */; };
+		0ED178B81FC04DB200D9AA89 /* Palladium-USD.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ED178B51FC04DB200D9AA89 /* Palladium-USD.json */; };
+		0ED178B91FC04DB200D9AA89 /* Platinum-USD.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ED178B61FC04DB200D9AA89 /* Platinum-USD.json */; };
+		4E398DD8A44E01A838F017BD /* Pods_GoldPriceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2281AF4F933BE6B867C97A6E /* Pods_GoldPriceUITests.framework */; };
+		76B531CEFAF8D71251D85BC8 /* Pods_GoldPriceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1707C6CF51947A6401E7F7 /* Pods_GoldPriceTests.framework */; };
+		B2EBED4EE5DAEB310AE319EF /* Pods_GoldPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BA0B468E64075E4B02BE78 /* Pods_GoldPrice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0870ADEBDE3CB1D6CCA8C93E /* Pods-GoldPriceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldPriceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldPriceUITests/Pods-GoldPriceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E289EBA1FBEC5E300B32FB3 /* MetalDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalDetailsCell.swift; sourceTree = "<group>"; };
+		0E289EBD1FBEFC1000B32FB3 /* Metal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal.swift; sourceTree = "<group>"; };
+		0E289EC01FBF140F00B32FB3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0E289EC31FBF248800B32FB3 /* Gold-USD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Gold-USD.json"; sourceTree = "<group>"; };
 		0E3F900B1FBDED3C00557860 /* GoldPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3F900E1FBDED3C00557860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E3F90101FBDED3C00557860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E3F90101FBDED3C00557860 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		0E3F90131FBDED3C00557860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E3F90151FBDED3C00557860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E3F90181FBDED3C00557860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,17 @@
 		0E3F902A1FBDED3C00557860 /* GoldPriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldPriceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3F902E1FBDED3C00557860 /* GoldPriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceUITests.swift; sourceTree = "<group>"; };
 		0E3F90301FBDED3C00557860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED178B41FC04DB200D9AA89 /* Silver-USD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Silver-USD.json"; sourceTree = "<group>"; };
+		0ED178B51FC04DB200D9AA89 /* Palladium-USD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Palladium-USD.json"; sourceTree = "<group>"; };
+		0ED178B61FC04DB200D9AA89 /* Platinum-USD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Platinum-USD.json"; sourceTree = "<group>"; };
+		17BA0B468E64075E4B02BE78 /* Pods_GoldPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED88D3039690809420576BA /* Pods-GoldPriceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldPriceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldPriceTests/Pods-GoldPriceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2281AF4F933BE6B867C97A6E /* Pods_GoldPriceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldPriceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A91F8283BDFE04B3A1C12BC /* Pods-GoldPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldPrice.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoldPrice/Pods-GoldPrice.release.xcconfig"; sourceTree = "<group>"; };
+		BCD407C68745AE6311129584 /* Pods-GoldPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldPrice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldPrice/Pods-GoldPrice.debug.xcconfig"; sourceTree = "<group>"; };
+		D5DC7A61FC299565A4AFE1A0 /* Pods-GoldPriceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldPriceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoldPriceTests/Pods-GoldPriceTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE1707C6CF51947A6401E7F7 /* Pods_GoldPriceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldPriceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8236FCE0708BEDC91AB0BA /* Pods-GoldPriceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldPriceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoldPriceUITests/Pods-GoldPriceUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EBED4EE5DAEB310AE319EF /* Pods_GoldPrice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B531CEFAF8D71251D85BC8 /* Pods_GoldPriceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E398DD8A44E01A838F017BD /* Pods_GoldPriceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E289EB91FBEC32E00B32FB3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E3F90101FBDED3C00557860 /* DashboardViewController.swift */,
+				0E289EBA1FBEC5E300B32FB3 /* MetalDetailsCell.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		0E289EBC1FBEFBE900B32FB3 /* Metal Object */ = {
+			isa = PBXGroup;
+			children = (
+				0E289EBD1FBEFC1000B32FB3 /* Metal.swift */,
+			);
+			path = "Metal Object";
+			sourceTree = "<group>";
+		};
+		0E289EBF1FBF13C400B32FB3 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0E289EC01FBF140F00B32FB3 /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		0E289EC21FBF245900B32FB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E289EC31FBF248800B32FB3 /* Gold-USD.json */,
+				0ED178B51FC04DB200D9AA89 /* Palladium-USD.json */,
+				0ED178B61FC04DB200D9AA89 /* Platinum-USD.json */,
+				0ED178B41FC04DB200D9AA89 /* Silver-USD.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		0E3F90021FBDED3C00557860 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +146,8 @@
 				0E3F90221FBDED3C00557860 /* GoldPriceTests */,
 				0E3F902D1FBDED3C00557860 /* GoldPriceUITests */,
 				0E3F900C1FBDED3C00557860 /* Products */,
+				51E18C44ADFC62801C2F38DE /* Pods */,
+				EF967A90D23C5B9809F92491 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +164,11 @@
 		0E3F900D1FBDED3C00557860 /* GoldPrice */ = {
 			isa = PBXGroup;
 			children = (
+				0E289EC21FBF245900B32FB3 /* Resources */,
+				0E289EBF1FBF13C400B32FB3 /* Constant */,
+				0E289EBC1FBEFBE900B32FB3 /* Metal Object */,
+				0E289EB91FBEC32E00B32FB3 /* Dashboard */,
 				0E3F900E1FBDED3C00557860 /* AppDelegate.swift */,
-				0E3F90101FBDED3C00557860 /* ViewController.swift */,
 				0E3F90121FBDED3C00557860 /* Main.storyboard */,
 				0E3F90151FBDED3C00557860 /* Assets.xcassets */,
 				0E3F90171FBDED3C00557860 /* LaunchScreen.storyboard */,
@@ -125,6 +195,29 @@
 			path = GoldPriceUITests;
 			sourceTree = "<group>";
 		};
+		51E18C44ADFC62801C2F38DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD407C68745AE6311129584 /* Pods-GoldPrice.debug.xcconfig */,
+				6A91F8283BDFE04B3A1C12BC /* Pods-GoldPrice.release.xcconfig */,
+				1ED88D3039690809420576BA /* Pods-GoldPriceTests.debug.xcconfig */,
+				D5DC7A61FC299565A4AFE1A0 /* Pods-GoldPriceTests.release.xcconfig */,
+				0870ADEBDE3CB1D6CCA8C93E /* Pods-GoldPriceUITests.debug.xcconfig */,
+				FE8236FCE0708BEDC91AB0BA /* Pods-GoldPriceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF967A90D23C5B9809F92491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17BA0B468E64075E4B02BE78 /* Pods_GoldPrice.framework */,
+				DE1707C6CF51947A6401E7F7 /* Pods_GoldPriceTests.framework */,
+				2281AF4F933BE6B867C97A6E /* Pods_GoldPriceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E3F90331FBDED3C00557860 /* Build configuration list for PBXNativeTarget "GoldPrice" */;
 			buildPhases = (
+				0C29DEC9A682D26B24B3C346 /* [CP] Check Pods Manifest.lock */,
 				0E3F90071FBDED3C00557860 /* Sources */,
 				0E3F90081FBDED3C00557860 /* Frameworks */,
 				0E3F90091FBDED3C00557860 /* Resources */,
+				C8D9D88903DA9D9A7F2EADD0 /* [CP] Embed Pods Frameworks */,
+				7219B44E199A5E878488AD54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E3F90361FBDED3C00557860 /* Build configuration list for PBXNativeTarget "GoldPriceTests" */;
 			buildPhases = (
+				DE68870DA1BECFE44286209F /* [CP] Check Pods Manifest.lock */,
 				0E3F901B1FBDED3C00557860 /* Sources */,
 				0E3F901C1FBDED3C00557860 /* Frameworks */,
 				0E3F901D1FBDED3C00557860 /* Resources */,
+				E29B2EE9B5BC887EC5DB2F76 /* [CP] Embed Pods Frameworks */,
+				69695EDB9157FE31DD152D5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E3F90391FBDED3C00557860 /* Build configuration list for PBXNativeTarget "GoldPriceUITests" */;
 			buildPhases = (
+				DCAAC904C7E2D29CAF8F8FE6 /* [CP] Check Pods Manifest.lock */,
 				0E3F90261FBDED3C00557860 /* Sources */,
 				0E3F90271FBDED3C00557860 /* Frameworks */,
 				0E3F90281FBDED3C00557860 /* Resources */,
+				DFFFCCB49D2A9D846B3E1B51 /* [CP] Embed Pods Frameworks */,
+				158BFE49B56F258BBDA64791 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +334,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED178B81FC04DB200D9AA89 /* Palladium-USD.json in Resources */,
+				0ED178B91FC04DB200D9AA89 /* Platinum-USD.json in Resources */,
+				0ED178B71FC04DB200D9AA89 /* Silver-USD.json in Resources */,
 				0E3F90191FBDED3C00557860 /* LaunchScreen.storyboard in Resources */,
+				0E289EC41FBF248800B32FB3 /* Gold-USD.json in Resources */,
 				0E3F90161FBDED3C00557860 /* Assets.xcassets in Resources */,
 				0E3F90141FBDED3C00557860 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +360,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C29DEC9A682D26B24B3C346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoldPrice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		158BFE49B56F258BBDA64791 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldPriceUITests/Pods-GoldPriceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69695EDB9157FE31DD152D5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldPriceTests/Pods-GoldPriceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7219B44E199A5E878488AD54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldPrice/Pods-GoldPrice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D9D88903DA9D9A7F2EADD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoldPrice/Pods-GoldPrice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldPrice/Pods-GoldPrice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCAAC904C7E2D29CAF8F8FE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoldPriceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE68870DA1BECFE44286209F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoldPriceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFFFCCB49D2A9D846B3E1B51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldPriceUITests/Pods-GoldPriceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29B2EE9B5BC887EC5DB2F76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldPriceTests/Pods-GoldPriceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E3F90071FBDED3C00557860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E3F90111FBDED3C00557860 /* ViewController.swift in Sources */,
+				0E289EC11FBF140F00B32FB3 /* Constants.swift in Sources */,
+				0E3F90111FBDED3C00557860 /* DashboardViewController.swift in Sources */,
+				0E289EBE1FBEFC1000B32FB3 /* Metal.swift in Sources */,
+				0E289EBB1FBEC5E300B32FB3 /* MetalDetailsCell.swift in Sources */,
 				0E3F900F1FBDED3C00557860 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +683,7 @@
 		};
 		0E3F90341FBDED3C00557860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD407C68745AE6311129584 /* Pods-GoldPrice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +698,7 @@
 		};
 		0E3F90351FBDED3C00557860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A91F8283BDFE04B3A1C12BC /* Pods-GoldPrice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +713,7 @@
 		};
 		0E3F90371FBDED3C00557860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED88D3039690809420576BA /* Pods-GoldPriceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +730,7 @@
 		};
 		0E3F90381FBDED3C00557860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5DC7A61FC299565A4AFE1A0 /* Pods-GoldPriceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +747,7 @@
 		};
 		0E3F903A1FBDED3C00557860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0870ADEBDE3CB1D6CCA8C93E /* Pods-GoldPriceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +763,7 @@
 		};
 		0E3F903B1FBDED3C00557860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8236FCE0708BEDC91AB0BA /* Pods-GoldPriceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
